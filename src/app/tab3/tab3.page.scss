@@ -1,0 +1,36 @@
+ion-icon {
+    color: #FFC107;
+    font-size: 256px;
+    width: 100%;
+}
+
+ion-row {
+    background-color: var(--ion-background-color);
+}
+
+ion-col {
+    background-color: var(--ion-background-color);
+    text-align: center;
+}
+
+ion-progress-bar {
+    margin-top: 30px;
+}
+
+ion-button {
+    --background: var(--ion-toolbar-background);
+    height: 30%;
+    margin-top: 30px;
+    padding: 10px;
+    width: 80%;
+}
+
+#song-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#song-artist {
+    font-size: 18px;
+    font-weight: lighter;
+}

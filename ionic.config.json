@@ -1,0 +1,7 @@
+{
+  "name": "PocketSong",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
