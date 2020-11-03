@@ -30,7 +30,7 @@
       <ion-col size="10" offset="1">
         <ion-item color="pocketsong">
           <ion-label class="ion-myLabel" position="floating" color="base">Song's Name</ion-label>
-          <ion-input type="text"></ion-input>
+          <ion-input type="text" (ionInput)="songName=$event.target.value"></ion-input>
         </ion-item>
       </ion-col>
     </ion-row>
@@ -40,7 +40,7 @@
       <ion-col size="10" offset="1">
         <ion-item color="pocketsong">
           <ion-label class="ion-myLabel" position="floating" color="base">Song's Artist</ion-label>
-          <ion-input type="text"></ion-input>
+          <ion-input type="text" (ionInput)="songArtist=$event.target.value"></ion-input>
         </ion-item>
       </ion-col>
     </ion-row>

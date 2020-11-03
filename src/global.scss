@@ -24,3 +24,37 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+.custom-alert {
+
+    .alert-head {
+        background-color: #455A64;
+    }
+
+    .alert-head h2 {
+        color: #FFC107;
+    }
+
+    .alert-message {
+        color: #FFFFFF;
+        margin-top: 7%;
+        max-height: 90%;
+        padding: 5%;
+        padding-bottom: 7%;
+        white-space: pre-line;
+    }
+
+    .alert-button-group {
+        background-color: #455A64;
+    }
+
+    .alert-button-group button {
+        color: #FFC107;
+        font-weight: bold;
+    }
+
+    .alert-wrapper {
+        max-width: 90%;
+    }
+
+}
