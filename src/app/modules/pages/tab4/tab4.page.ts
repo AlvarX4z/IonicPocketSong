@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { AlertController } from '@ionic/angular';
-import { SongAPIService } from 'src/app/api/song-api.service';
+import { SongAPIService } from '../../../services/song-api.service';
 import { Song } from 'src/app/classes/song';
 
 @Component({
